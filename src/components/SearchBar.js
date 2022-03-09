@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 15, // NB: this is the marging left 15 and margin rigth 15
     flexDirection: "row", // allows both items to spread across a single row
     // marginVertical: 15
+    marginBottom: 10
   },
   inputStyle: {
     flex: 1, // allows the search bar to spread across to the end
