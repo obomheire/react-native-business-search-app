@@ -5,7 +5,7 @@ import yelp from "../api/yelp";
 const ResultsShowScreen = ({ navigation }) => {
   const [result, setResult] = useState(null);
 
-  console.log(result);
+  // console.log(result);
 
   const id = navigation.getParam("id");
 
