@@ -3,7 +3,9 @@ import { Text, View, StyleSheet} from 'react-native'
 
 const Demo = () => {
   return (
-    <View>Show Screen</View>
+    <View>
+        <Text>Edit Screen</Text>
+    </View>
   )
 }
 
