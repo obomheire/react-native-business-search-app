@@ -18,6 +18,7 @@ const ShowScreen = ({ navigation }) => {
   );
 };
 
+// Show an icon at the top rigth the header such that when user click, it will navigate then to another page
 ShowScreen.navigationOptions = ({ navigation }) => {
   return {
     headerRight: () => (

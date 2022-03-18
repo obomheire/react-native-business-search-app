@@ -8,12 +8,17 @@ const IndexScreen = ( { navigation }) => {
   const {state, deleteBlogPost, getBlogPosts} = useContext(Context)
 
   useEffect(() => {
+
+    // The first time we get access to the IndexScreen call getBlopgPost()
     getBlogPosts();
 
+    // Anytime the IndexScreen gain focus again, run the callback or call the getBlogPosts again
     const listener = navigation.addListener('didFocus', () => {
       getBlogPosts();
     });
 
+    //As soon as the component is no longer visible e.i 100% as soon as it's completely off of the device,
+    // then go ahead and clean up the listener to prevent memory leak
     return () => {
       listener.remove();
     };
@@ -41,6 +46,7 @@ const IndexScreen = ( { navigation }) => {
   )
 }
 
+// Show an icon at the top rigth the header such that when user click, it will navigate then to another page
 IndexScreen.navigationOptions = ({ navigation }) => {
   return {
     headerRight: () => (

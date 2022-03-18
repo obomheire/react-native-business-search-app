@@ -1,7 +1,8 @@
 import React from 'react'
 import { Text, View, StyleSheet, FlatList, TouchableOpacity, Pressable  } from 'react-native'
 import ResultDetail from './ResultDetail'
-//get access directly to the navigation opbject directly
+
+//Get direct access to the navigation object
 import { withNavigation } from 'react-navigation'
 
 const ResultsList = ( { title, results, navigation }) => {
