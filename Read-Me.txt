@@ -1,5 +1,5 @@
 Projects Orders:
 1. react-native-starter (Section 1 - 7)
 2. react-native-food-search-app (Section 8 - 11): (axios, yelp api, custom hook)
-3. react-native-blog-app (Section 12 - 13): (axios, useReduicer, createContext, jsonServer)
+3. react-native-blog-app (Section 12 - 13): (axios, useReduicer, createContext, jsonServer, ngrok)
 4. react-native-track-app (Section 14 - ): (axiox, useReducer, createContext, )
